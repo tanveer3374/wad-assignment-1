@@ -1,0 +1,149 @@
+.research{
+    margin: 2%;
+  }
+  .phd{
+    display: grid;
+    grid-template-columns: 2fr 8fr;
+    flex-wrap: nowrap;
+    margin-top: 1%;
+    gap: 4%;
+    line-height: 180%;
+  } 
+  .deptname{    
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 10%;
+    margin-top: 1%;
+  }
+  .navbar{
+    margin-top: 1%;
+    background-color: #435058;
+    height: 40px;
+  }
+  .navitems{
+    display: flex;
+    flex-direction: row;
+    gap: 1.5%;
+    margin-left:3%;
+    height: 100%;
+  }
+  .navitems li:nth-child(7){
+    margin-left:15%;
+  }
+  .navitems a{
+    color: white;
+  }
+  a{
+    text-decoration: none;
+  
+  }
+  .navitems li {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    box-sizing: border-box;
+    transition: background-color .5s;
+  }
+  
+  
+  .navitems li:hover {
+    height: 100%;
+    background-color: rgb(0, 42, 87);
+  }
+  .navitems li:active {
+    background-color: white;
+  }
+  .imgtext{
+    background-image: url(bckimg.webp); 
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    color: white;          
+    text-align: center;
+    display: flex;          
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .linksandprograms {
+    margin-right: 5px;
+    border-top: 5px solid black;
+    border-radius: 2px;
+    border-right: 5px solid black;
+    height: 400px;
+    margin-top: 20px;
+     background-color: #89cbf4ab;
+    display: flex;
+    flex-direction: column;
+   box-shadow: 2px 2px 0 0 rgb(5, 5, 5);
+  
+  }
+  .upperrow{
+    
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+    
+  }
+  
+  .usefullinks {
+    width: 30%;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+        gap: 10px;
+  margin-top: 15px;
+  }
+  .usefullinks h3{
+    margin-left: 10%;
+  }
+  .usefullinks a {
+    display: inline-block;
+    background-color: rgb(41, 183, 219);
+    border: 1px solid #ccc;
+    text-decoration: none;
+    color:white;
+    transition: background-color 0.3s ease;
+    text-align: center;
+  }
+  
+  .usefullinks a:hover {
+    background-color:  rgb(35, 109, 235);
+  text-decoration: underline;
+  }
+  .links{
+    display: flex;
+    flex-direction: row;
+    gap: 2%;
+  }
+  
+  .programs {
+    width: 70%;
+    margin-left: 15%;
+    line-height: 2.5;
+  }
+  .programs h3{
+    margin-left: 5%;
+  }
+  .programs ul{
+    list-style-type:none;
+  }
+  .programs a:hover{
+    text-decoration: underline;
+  }
+  .nc{
+    margin: 10%;
+  }
+  .foot{
+      text-align: center;
+    justify-items: center;
+    margin-right: 5px;
+    height: 40px;
+    background-color: #435058;;
+    color: white;
+  
+  }  
+  
+  
+  
+  
